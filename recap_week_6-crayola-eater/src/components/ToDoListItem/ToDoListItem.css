@@ -1,0 +1,23 @@
+.todo__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todo__task {
+  width: 70%;
+}
+
+.todo__priority {
+  width: 10%;
+  text-align: center;
+}
+
+.todo__item > :nth-child(n + 1) {
+  margin-left: 1rem;
+}
+
+.todo__item-delete {
+  text-align: center;
+  padding: 1rem;
+}

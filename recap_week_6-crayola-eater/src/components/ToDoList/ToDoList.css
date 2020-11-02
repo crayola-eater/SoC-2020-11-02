@@ -1,0 +1,19 @@
+.todo-input {
+  border: 2px solid rgba(10, 10, 10, 0.3);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.todo-input:invalid {
+  color: red;
+}
+
+.new-todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
